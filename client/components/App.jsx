@@ -10,10 +10,10 @@ class App extends React.Component {
   
   render(){
     return (
+      <Router>
       <div>
-        <div className="container">
         
-          <Router>
+        <div className="container">
           
             <div>
               <Route exact path="/" component={Home}/>
@@ -23,11 +23,12 @@ class App extends React.Component {
               <Route exact path="/ross" component={Ross}/>
             </div>
             
-          </Router>
+        
           
     
         </div>
       </div>
+      </Router>
       
     )
   }
