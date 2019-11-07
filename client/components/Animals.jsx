@@ -8,6 +8,10 @@ import sheep from "../../public/images/004-sheep.png";
 import duck from "../../public/images/005-duck.png";
 
 class Animals extends Component {
+    handleClick = (event) =>{
+        console.log(event.target.srcset)
+    }
+    
     render() {
         return (
             <div>
