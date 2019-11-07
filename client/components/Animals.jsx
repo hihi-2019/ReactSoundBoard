@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import Sky from 'react-sky';
 
 class Animals extends Component {
+    handleClick = (event) =>{
+        console.log(event.target.srcset)
+    }
+    
     render() {
       return (
-        <div> 
+        <div onClick={this.handleClick}> 
           /* Sky adapts size to its container */
           <Sky 
             images={{
