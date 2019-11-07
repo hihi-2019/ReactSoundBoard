@@ -1,15 +1,28 @@
 import React, { Component } from 'react';
 import Sky from 'react-sky';
-import rosssound from '../../public/sounds/ross1.wav';
+import rossSound1 from '../../public/sounds/ross1.wav';
+// import rossSound2 from '../../public/sounds/ross2.wav';
+import rossSound3 from '../../public/sounds/ross3.wav';
+import rossSound4 from '../../public/sounds/ross3.wav';
 
-let ross1 = new Audio(rosssound)
+let ross1 = new Audio(rossSound1)
+// let ross2 = new Audio(rossSound2)
+let ross3 = new Audio(rossSound3)
+let ross4 = new Audio(rossSound4)
 
 
  
 class Ross extends Component {
   handleClick = (event) =>{
-    ross1.play()
-    console.log(event.target.srcset)
+    let num = Math.floor(Math.random()*4)
+    console.log(num)
+    if(num === 0){
+        ross1.play()
+    } else if(num === 1){
+        ross3.play()
+    } else if (num === 2){
+        ross4.play()
+    }
 }
 
   render() {
