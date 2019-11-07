@@ -7,14 +7,31 @@ import cat from "../../public/images/003-cat.png";
 import sheep from "../../public/images/004-sheep.png";
 import duck from "../../public/images/005-duck.png";
 
+//Sounds
+// import cowSound from "../../public/sounds/cow.wav"
+
+
+
+// Images
+// const cow = "https://image.flaticon.com/icons/svg/2174/2174039.svg"
+
+
+// Sounds
+// const cowAudio = new Audio(cowSound)
+
 class Animals extends Component {
     handleClick = (event) =>{
-        console.log(event.target.srcset)
+        console.log(event.target)
+
+        // if (event.target.srcset == cow){
+        //   cowAudio.play()
+        // }
     }
+
     
     render() {
         return (
-            <div>
+            <div onClick={this.handleClick}>
                 /* Sky adapts size to its container */
                 <Sky
                     images={{
