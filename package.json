@@ -33,7 +33,8 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-sky": "^1.1.0",
-    "superagent": "^5.0.2"
+    "superagent": "^5.0.2",
+    "url-loader": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

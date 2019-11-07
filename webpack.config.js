@@ -8,11 +8,26 @@ module.exports = {
   },
   mode: 'development',
   module: {
-    rules: [{
-      test: /\.jsx?$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/
-    }]
+    rules: [
+      {
+        test: /\.jsx?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader?modules'
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        use: {
+            loader: 'url-loader',
+            options: {
+                limit: 25000
+            }
+        }
+      }
+    ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
