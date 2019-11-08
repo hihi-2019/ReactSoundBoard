@@ -8,19 +8,19 @@ import ross from "../../public/images/ross.jpg"
 const Home = (props) =>{
     return (
         <div className="grid">
-            <div class="row">
-                <div class="column">
+            <div className="row">
+                <div className="column">
                     <Link to="/animals"><img src={cow}></img></Link>
                 </div>
-                <div class="column">
+                <div className="column">
                     <Link to="/vehicles"><img src={car}></img></Link>
                 </div>
             </div>
-            <div class="row">
-                <div class="column">
+            <div className="row">
+                <div className="column">
                     <Link to="/christmas"><img src={santa}></img></Link>
                 </div>
-                <div class="column">
+                <div className="column">
                     <Link to="/ross"><img id="ross" src={ross}></img></Link>
                 </div>
             </div>
