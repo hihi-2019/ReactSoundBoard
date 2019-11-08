@@ -37,9 +37,9 @@ class Ross extends Component {
             0: "https://ca.slack-edge.com/T02SQPVAC-U831A7Y93-c1b6c7b2f1ff-512"
            
           }}
-          how={130} /* You have to pass a number so Sky will render that amount of images chosen randomly from the object you passed in the previous step */
+          how={120} /* You have to pass a number so Sky will render that amount of images chosen randomly from the object you passed in the previous step */
           time={40} /* time of the animation. Dfaults at 20s */
-          size={'150px'} /* size of the rendered images. Defaults at 150px */
+          size={'130px'} /* size of the rendered images. Defaults at 150px */
           background={'#2F3939'} /* color of background. Defaults to none */
         />
       </div>

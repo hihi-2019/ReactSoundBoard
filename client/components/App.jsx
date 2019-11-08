@@ -21,7 +21,9 @@ class App extends React.Component {
               <Route exact path="/vehicles" component={Vehicles}/>
               <Route exact path="/christmas" component={Christmas}/>
               <Route exact path="/ross" component={Ross}/>
+              
             </div>
+            <Link to={'/custom'}><h1 className="custom">CUSTOM SOUNDGLOBE</h1></Link>
             
         
           
