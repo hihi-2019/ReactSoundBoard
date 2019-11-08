@@ -40,3 +40,8 @@ html{
   a{
       text-decoration: none;
   }
+
+  .custom {
+      text-align: center;
+      color:goldenrod;
+  }
