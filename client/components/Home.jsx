@@ -21,7 +21,7 @@ const Home = (props) =>{
                     <Link to="/christmas"><img src={santa}></img></Link>
                 </div>
                 <div class="column">
-                    <Link to="/ross"><img src={ross}></img></Link>
+                    <Link to="/ross"><img id="ross" src={ross}></img></Link>
                 </div>
             </div>
             

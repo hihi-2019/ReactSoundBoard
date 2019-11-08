@@ -30,7 +30,7 @@ class Ross extends Component {
   render() {
     return (
       <div onClick={this.handleClick}> 
-        /* Sky adapts size to its container */
+        
         <Sky 
           images={{
             /* FORMAT AS FOLLOWS */

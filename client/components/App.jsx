@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <Router>
       <div>
-        
+        <Link to={'/'}><h1 className="header">CHOOSE YOUR SOUNDGLOBE</h1></Link>
         <div className="container">
           
             <div>

@@ -9,7 +9,7 @@ html{
     flex-direction: row;
     flex-basis: 50%;
     margin-left: 16%;
-    margin-top: 7%;
+    margin-top: 0;
     
 }
 
@@ -25,4 +25,18 @@ html{
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+  }
+
+  .header{
+      text-align: center;
+      color: crimson;
+      font-size: 50px;
+  }
+
+  #ross{
+      height: 240px;
+  }
+
+  a{
+      text-decoration: none;
   }
