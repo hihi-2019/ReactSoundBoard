@@ -5,6 +5,7 @@ import Animals from './Animals'
 import Vehicles from './Vehicles'
 import Christmas from './Christmas'
 import Ross from './Ross'
+import Custom from './Custom'
 
 class App extends React.Component {
   
@@ -21,6 +22,7 @@ class App extends React.Component {
               <Route exact path="/vehicles" component={Vehicles}/>
               <Route exact path="/christmas" component={Christmas}/>
               <Route exact path="/ross" component={Ross}/>
+              <Route exact path="/custom" component={Custom}/>
               
             </div>
             <Link to={'/custom'}><h1 className="custom">CUSTOM SOUNDGLOBE</h1></Link>
