@@ -13,7 +13,7 @@ import cowSound from "../../public/sounds/cow.wav";
 import dogSound from "../../public/sounds/dog.mp3";
 import catSound from "../../public/sounds/cat.wav";
 import duckSound from "../../public/sounds/duck.wav";
-import sheepSound from "../../public/sounds/sheep.wav";
+import sheepSound from "../../public/sounds/sheep.wav"
 
 // Cow
 const cowFile = "8P8BfWjJzJK9jsYAAAAASUVORK5CYII=";
@@ -60,7 +60,7 @@ class Animals extends Component {
     render() {
         return (
             <div onClick={this.handleClick}>
-                
+                /* Sky adapts size to its container */
                 <Sky
                     images={{
                         /* FORMAT AS FOLLOWS */
